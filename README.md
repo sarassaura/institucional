@@ -25,3 +25,9 @@ To start Storybook and view the UI components in development, run:
 ```bash
   npm run storybook
 ```
+
+To execute tests with playwright use npx run:
+
+```
+  npx playwright install
+```
