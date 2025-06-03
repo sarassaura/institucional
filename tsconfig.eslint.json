@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "src/**/*",
+    ".storybook/**/*",
+    "vitest.shims.d.ts",
+    "vitest.workspace.ts",
+    "setupTests.ts",
+    "vite.config.ts"
+  ],
+  "compilerOptions": {
+    "composite": false
+  }
+}

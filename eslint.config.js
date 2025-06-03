@@ -1,3 +1,6 @@
+// For more info, see https://github.com/storybookjs/eslint-plugin-storybook#configuration-flat-config-format
+import storybook from "eslint-plugin-storybook";
+
 import js from "@eslint/js";
 import globals from "globals";
 import reactHooks from "eslint-plugin-react-hooks";
@@ -23,7 +26,7 @@ export default tseslint.config(
         ...globals.browser,
       },
       parserOptions: {
-        project: ["./tsconfig.node.json", "./tsconfig.app.json"],
+        project: ["./tsconfig.eslint.json"],
         tsconfigRootDir: import.meta.dirname,
         ecmaFeatures: {
           jsx: true,
@@ -48,4 +51,5 @@ export default tseslint.config(
       "prettier/prettier": "warn",
     },
   },
+  storybook.configs["flat/recommended"],
 );
