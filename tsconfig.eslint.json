@@ -9,6 +9,9 @@
     "vite.config.ts"
   ],
   "compilerOptions": {
-    "composite": false
+    "composite": false,
+    "paths": {
+      "@mui/styled-engine": ["./node_modules/@mui/styled-engine-sc"]
+    }
   }
 }
