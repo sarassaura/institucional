@@ -1,0 +1,37 @@
+name: Sync fork with upstream
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Todos os dias às 6h UTC
+  workflow_dispatch:      # Permite rodar manualmente
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clonar seu fork
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false  # Evita conflitos com o token padrão
+
+      - name: Configurar Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Adicionar upstream
+        run: |
+          git remote add upstream https://github.com/bikeanjo/institucional.git
+          git fetch upstream
+
+      - name: Fazer merge com upstream/main
+        run: |
+          git checkout main
+          git merge upstream/main --allow-unrelated-histories --no-edit || echo "Nada para mesclar"
+
+      - name: Push para seu fork (origin)
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
