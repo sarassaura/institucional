@@ -7,6 +7,9 @@
   "compilerOptions": {
     "esModuleInterop": true,
     "isolatedModules": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@assets/*": ["./src/assets/*"]
+    }
   }
 }
