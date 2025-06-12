@@ -6,6 +6,8 @@ const SubTitle = styled(Typography)`
   font-size: 24px;
   font-weight: 600;
   margin-top: 8px;
+  text-align: center;
+  padding: 0 202px;
 `;
 
 export default SubTitle;
