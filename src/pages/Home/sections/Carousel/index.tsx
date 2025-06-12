@@ -5,7 +5,7 @@ import Container from "../../components/Container";
 
 function Carousel(): ReactNode {
   return (
-    <Container secondary>
+    <Container gap="32px" secondary>
       <Title variant="h2">Uma comunidade que pedala por um futuro melhor</Title>
       <SubTitle>
         Conectamos pessoas dispostas a ajudar com quem precisa de apoio para
