@@ -14,26 +14,26 @@ import ProjectInfo from "../../components/ProjectInfo";
 
 function ProjectThatMoveUs(): ReactNode {
   return (
-    <Container gap="32px">
+    <Container gap="8px">
       <Title variant="h2">Projetos que nos movem</Title>
       <SubTitle>
         Cada projeto é uma forma de transformar cidades, conheça nosso trabalho.
         Além de ensinar a pedalar, atuamos em diversas frentes.
       </SubTitle>
-      <Box display="flex" sx={{ gap: 5 }}>
+      <Box display="flex" overflow="hidden" sx={{ gap: 5, marginTop: "40px" }}>
         <ProjectBox>
           <img src={EBA} alt="Logo Escola Bike Anjo" />
           <ProjectInfo>
             <Typography
               fontWeight={700}
-              fontSize={18}
+              fontSize={18.6}
               color="var(--mui-palette-neutral-800)"
             >
               Escola Bike Anjo
             </Typography>
             <Typography
               fontWeight={500}
-              fontSize={18}
+              fontSize={18.6}
               color="var(--mui-palette-neutral-800)"
               align="center"
             >
@@ -45,7 +45,7 @@ function ProjectThatMoveUs(): ReactNode {
                 color: "var(--mui-palette-title-main)",
               }}
             >
-              <Typography fontWeight={700} fontSize={18}>
+              <Typography fontWeight={700} fontSize={18.6}>
                 Conheça
               </Typography>
             </Button>
@@ -56,14 +56,14 @@ function ProjectThatMoveUs(): ReactNode {
           <ProjectInfo>
             <Typography
               fontWeight={700}
-              fontSize={18}
+              fontSize={18.6}
               color="var(--mui-palette-neutral-800)"
             >
               Bike Anjas
             </Typography>
             <Typography
               fontWeight={500}
-              fontSize={18}
+              fontSize={18.6}
               color="var(--mui-palette-neutral-800)"
               align="center"
             >
@@ -75,7 +75,7 @@ function ProjectThatMoveUs(): ReactNode {
                 color: "var(--mui-palette-title-main)",
               }}
             >
-              <Typography fontWeight={700} fontSize={18}>
+              <Typography fontWeight={700} fontSize={18.6}>
                 Conheça
               </Typography>
             </Button>
@@ -86,14 +86,14 @@ function ProjectThatMoveUs(): ReactNode {
           <ProjectInfo>
             <Typography
               fontWeight={700}
-              fontSize={18}
+              fontSize={18.6}
               color="var(--mui-palette-neutral-800)"
             >
               Bike Anje
             </Typography>
             <Typography
               fontWeight={500}
-              fontSize={18}
+              fontSize={18.6}
               color="var(--mui-palette-neutral-800)"
               align="center"
             >
@@ -105,7 +105,7 @@ function ProjectThatMoveUs(): ReactNode {
                 color: "var(--mui-palette-title-main)",
               }}
             >
-              <Typography fontWeight={700} fontSize={18}>
+              <Typography fontWeight={700} fontSize={18.6}>
                 Conheça
               </Typography>
             </Button>
@@ -116,14 +116,14 @@ function ProjectThatMoveUs(): ReactNode {
           <ProjectInfo>
             <Typography
               fontWeight={700}
-              fontSize={18}
+              fontSize={18.6}
               color="var(--mui-palette-neutral-800)"
             >
               Bike na Escola
             </Typography>
             <Typography
               fontWeight={500}
-              fontSize={18}
+              fontSize={18.6}
               color="var(--mui-palette-neutral-800)"
               align="center"
             >
@@ -135,7 +135,7 @@ function ProjectThatMoveUs(): ReactNode {
                 color: "var(--mui-palette-title-main)",
               }}
             >
-              <Typography fontWeight={700} fontSize={18}>
+              <Typography fontWeight={700} fontSize={18.6}>
                 Conheça
               </Typography>
             </Button>
@@ -146,14 +146,14 @@ function ProjectThatMoveUs(): ReactNode {
           <ProjectInfo>
             <Typography
               fontWeight={700}
-              fontSize={18}
+              fontSize={18.6}
               color="var(--mui-palette-neutral-800)"
             >
               Bike na Periferia
             </Typography>
             <Typography
               fontWeight={500}
-              fontSize={18}
+              fontSize={18.6}
               color="var(--mui-palette-neutral-800)"
               align="center"
             >
@@ -165,7 +165,7 @@ function ProjectThatMoveUs(): ReactNode {
                 color: "var(--mui-palette-title-main)",
               }}
             >
-              <Typography fontWeight={700} fontSize={18}>
+              <Typography fontWeight={700} fontSize={18.6}>
                 Conheça
               </Typography>
             </Button>
@@ -176,14 +176,14 @@ function ProjectThatMoveUs(): ReactNode {
           <ProjectInfo>
             <Typography
               fontWeight={700}
-              fontSize={18}
+              fontSize={18.6}
               color="var(--mui-palette-neutral-800)"
             >
               De Bike ao Trabalho
             </Typography>
             <Typography
               fontWeight={500}
-              fontSize={18}
+              fontSize={18.6}
               color="var(--mui-palette-neutral-800)"
               align="center"
             >
@@ -195,7 +195,7 @@ function ProjectThatMoveUs(): ReactNode {
                 color: "var(--mui-palette-title-main)",
               }}
             >
-              <Typography fontWeight={700} fontSize={18}>
+              <Typography fontWeight={700} fontSize={18.6}>
                 Conheça
               </Typography>
             </Button>

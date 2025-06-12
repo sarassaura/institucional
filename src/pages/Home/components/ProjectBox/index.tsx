@@ -6,9 +6,9 @@ const ProjectBox = styled.div`
   align-items: center;
   width: 100%;
   height: auto;
-  border-radius: 12px;
-  padding: 18px;
-  gap: 18px;
+  border-radius: 12.4px;
+  padding: 18.6px;
+  gap: 18.6px;
   background-color: var(--mui-palette-secondary-main);
 `;
 
