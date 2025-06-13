@@ -13,8 +13,12 @@ function Carousel(): ReactNode {
       <Box
         sx={{
           position: "relative",
+          width: "1036px",
+          textAlign: "center",
+          gap: "32px",
           height: "254px",
           display: "flex",
+          flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
         }}
@@ -24,37 +28,26 @@ function Carousel(): ReactNode {
           alt="Seta para a esquerda"
           style={{
             position: "absolute",
-            left: "142px",
+            left: "-60px",
             width: "36px",
             height: "36px",
             top: "calc(50% - 18px)",
           }}
         />
-        <Box
-          height="254px"
-          sx={{
-            textAlign: "center",
-            padding: "0 202px",
-            display: "flex",
-            flexDirection: "column",
-            gap: "20px",
-          }}
-        >
-          <Title variant="h2">
-            Uma comunidade que pedala por um futuro melhor
-          </Title>
-          <SubTitle fontWeight={400}>
-            Conectamos pessoas dispostas a ajudar com quem precisa de apoio para
-            pedalar, oferecendo orientação, rotas seguras e acompanhamento no
-            percurso.
-          </SubTitle>
-        </Box>
+        <Title variant="h2">
+          Uma comunidade que pedala por um futuro melhor
+        </Title>
+        <SubTitle fontWeight={400}>
+          Conectamos pessoas dispostas a ajudar com quem precisa de apoio para
+          pedalar, oferecendo orientação, rotas seguras e acompanhamento no
+          percurso.
+        </SubTitle>
         <img
           src={RightArrow}
           alt="Seta para a direita"
           style={{
             position: "absolute",
-            right: "142px",
+            right: "-60px",
             width: "36px",
             height: "36px",
             top: "calc(50% - 18px)",

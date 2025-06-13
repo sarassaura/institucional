@@ -4,7 +4,7 @@ const ProjectBox = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 285.27px;
   height: auto;
   border-radius: 12.4px;
   padding: 18.6px;
