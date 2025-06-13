@@ -9,7 +9,7 @@ import StepsCarousel from "../../../../assets/images/steps-carousel.png";
 
 function Carousel(): ReactNode {
   return (
-    <Container secondary padding="155px 202px 40px">
+    <Container secondary padding="90px 202px 40px" height="calc(100vh - 80px)">
       <Box
         sx={{
           textAlign: "center",
@@ -33,14 +33,16 @@ function Carousel(): ReactNode {
             top: "calc(50% - 18px)",
           }}
         />
-        <Title variant="h2">
-          Uma comunidade que pedala por um futuro melhor
-        </Title>
-        <SubTitle fontWeight={400}>
-          Conectamos pessoas dispostas a ajudar com quem precisa de apoio para
-          pedalar, oferecendo orientação, rotas seguras e acompanhamento no
-          percurso.
-        </SubTitle>
+        <Box sx={{ display: "flex", flexDirection: "column", gap: "32px" }}>
+          <Title variant="h2">
+            Uma comunidade que pedala por um futuro melhor
+          </Title>
+          <SubTitle fontWeight={400}>
+            Conectamos pessoas dispostas a ajudar com quem precisa de apoio para
+            pedalar, oferecendo orientação, rotas seguras e acompanhamento no
+            percurso.
+          </SubTitle>
+        </Box>
         <img
           src={RightArrow}
           alt="Seta para a direita"

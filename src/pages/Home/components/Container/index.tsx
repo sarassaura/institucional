@@ -4,6 +4,7 @@ interface ContainerProps {
   secondary?: boolean;
   gap?: string;
   padding?: string;
+  height?: string;
 }
 
 const Container = styled.div<ContainerProps>`
@@ -14,6 +15,7 @@ const Container = styled.div<ContainerProps>`
   background-color: ${(props) =>
     props.secondary && "var(--mui-palette-secondary-main)"};
   gap: ${(props) => props.gap};
+  height: ${(props) => props.height};
 `;
 
 export default Container;
