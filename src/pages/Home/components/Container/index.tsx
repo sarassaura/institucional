@@ -3,10 +3,11 @@ import styled from "styled-components";
 interface ContainerProps {
   secondary?: boolean;
   gap?: string;
+  padding?: string;
 }
 
 const Container = styled.div<ContainerProps>`
-  padding: 64px 0px;
+  padding: ${(props) => props.padding || "64px 0px"};
   display: flex;
   flex-direction: column;
   align-items: center;
