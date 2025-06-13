@@ -74,7 +74,7 @@ export default function Login() {
                 height: 18,
                 right: 24,
                 top: 0,
-                backgroungColor: "#858585",
+                backgroundColor: "#858585",
                 transform: "translateY(-20%) rotate(45deg)",
                 zIndex: 0,
               },
