@@ -14,17 +14,26 @@ import ProjectInfo from "../../components/ProjectInfo";
 
 function ProjectThatMoveUs(): ReactNode {
   return (
-    <Container gap="8px">
-      <Title variant="h2">Projetos que nos movem</Title>
-      <SubTitle>
-        Cada projeto é uma forma de transformar cidades, conheça nosso trabalho.
-        Além de ensinar a pedalar, atuamos em diversas frentes.
-      </SubTitle>
+    <Container gap="32px">
+      <Box
+        sx={{
+          textAlign: "center",
+          width: "1036px",
+          display: "flex",
+          flexDirection: "column",
+        }}
+      >
+        <Title variant="h2">Projetos que nos movem</Title>
+        <SubTitle>
+          Cada projeto é uma forma de transformar cidades, conheça nosso
+          trabalho. Além de ensinar a pedalar, atuamos em diversas frentes.
+        </SubTitle>
+      </Box>
       <Box
         display="flex"
         width="1032px"
         overflow="hidden"
-        sx={{ gap: 5, marginTop: "40px" }}
+        sx={{ gap: 5, marginTop: "8px" }}
       >
         <ProjectBox>
           <img src={EBA} alt="Logo Escola Bike Anjo" />

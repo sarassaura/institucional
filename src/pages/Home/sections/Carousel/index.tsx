@@ -12,10 +12,9 @@ function Carousel(): ReactNode {
     <Container secondary padding="155px 202px 40px">
       <Box
         sx={{
-          position: "relative",
-          width: "1036px",
           textAlign: "center",
-          gap: "32px",
+          width: "1036px",
+          position: "relative",
           height: "254px",
           display: "flex",
           flexDirection: "column",
@@ -28,7 +27,7 @@ function Carousel(): ReactNode {
           alt="Seta para a esquerda"
           style={{
             position: "absolute",
-            left: "-60px",
+            left: "-100px",
             width: "36px",
             height: "36px",
             top: "calc(50% - 18px)",
@@ -47,7 +46,7 @@ function Carousel(): ReactNode {
           alt="Seta para a direita"
           style={{
             position: "absolute",
-            right: "-60px",
+            right: "-100px",
             width: "36px",
             height: "36px",
             top: "calc(50% - 18px)",

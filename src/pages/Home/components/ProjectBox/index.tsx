@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const ProjectBox = styled.div`
   display: flex;
+  flex: 0 0 auto;
   flex-direction: column;
   align-items: center;
   width: 285.27px;

@@ -8,8 +8,17 @@ import { Box } from "@mui/material";
 function WhereAreWe(): ReactNode {
   return (
     <Container secondary gap="32px">
-      <Title variant="h2">Onde estamos</Title>
-      <SubTitle>Saiba onde encontrar iniciativas para participar</SubTitle>
+      <Box
+        sx={{
+          textAlign: "center",
+          width: "1036px",
+          display: "flex",
+          flexDirection: "column",
+        }}
+      >
+        <Title variant="h2">Onde estamos</Title>
+        <SubTitle>Saiba onde encontrar iniciativas para participar</SubTitle>
+      </Box>
       <Box
         sx={{
           marginTop: "8px",
