@@ -19,6 +19,7 @@ const Header: React.FC = () => {
         sx={{
           justifyContent: "space-between",
           borderBottomWidth: "1px",
+          height: "80px",
           py: 2,
           px: 5,
           gap: "32px",
@@ -31,6 +32,7 @@ const Header: React.FC = () => {
             alignItems: "center",
             justifyContent: "center",
             width: 403,
+            height: "48px",
             backgroundColor: "#E2E8F0",
             borderRadius: "8px",
             py: 1.5,
@@ -40,7 +42,7 @@ const Header: React.FC = () => {
         >
           <span
             className="material-icons"
-            style={{ fontSize: 24, color: "#486284" }}
+            style={{ fontSize: 24, color: "#486284", fontWeight: "bold" }}
           >
             search
           </span>
@@ -76,7 +78,7 @@ const Header: React.FC = () => {
               keyboard_arrow_down
             </span>
           </Box>
-          <Typography fontWeight={600} fontSize={"15px"} whiteSpace={"nowrap"}>
+          <Typography fontWeight={600} fontSize="16px" whiteSpace={"nowrap"}>
             Receba Ajuda
           </Typography>
           <Box
@@ -118,7 +120,7 @@ const Header: React.FC = () => {
                 whiteSpace: "nowrap",
               }}
             >
-              Iniciativas
+              Sobre Nós
             </Typography>
             <span
               className="material-icons"
@@ -131,14 +133,14 @@ const Header: React.FC = () => {
               keyboard_arrow_down
             </span>
           </Box>
-          <Typography fontWeight={600} fontSize={"15px"}>
+          <Typography fontWeight={600} fontSize={"16px"}>
             Contato
           </Typography>
         </Box>
         <Button
           sx={{
             width: 130,
-            height: 49,
+            height: 43,
             backgroundColor: "#486284",
             borderRadius: "10px",
             padding: "19px 48px",

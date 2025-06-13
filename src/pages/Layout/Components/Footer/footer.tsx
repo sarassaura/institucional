@@ -14,8 +14,11 @@ import "material-icons/iconfont/material-icons.css";
 
 const Footer: React.FC = () => {
   return (
-    <Box component="footer" sx={{ px: 12, pt: 5, pb: 8, bgcolor: "#F8F8F8" }}>
-      <Box display="flex">
+    <Box
+      component="footer"
+      sx={{ px: 12, pt: 5, pb: 8, bgcolor: "#F8F8F8", color: "#656565" }}
+    >
+      <Box display="flex" sx={{ justifyContent: "space-between" }}>
         <Box
           display={"flex"}
           flexDirection={"column"}
@@ -42,7 +45,7 @@ const Footer: React.FC = () => {
             <SocialIcon icon={faYoutube} url="" />
           </Box>
         </Box>
-        <Box display={"flex"} paddingLeft={24} gap={"24px"}>
+        <Box display={"flex"} gap={"24px"}>
           <Box
             display={"flex"}
             flexDirection={"column"}
@@ -212,12 +215,12 @@ const Footer: React.FC = () => {
       </Box>
       <Divider
         sx={{
-          py: 4,
-          width: 1220,
+          my: 4,
+          borderWidth: "1px",
           borderColor: "#656565",
         }}
       />
-      <Typography py={4} fontWeight={600} fontSize={"23px"}>
+      <Typography fontWeight={600} fontSize={"24px"}>
         Bike Anjo 2025 | Feito no Brasil
       </Typography>
     </Box>
