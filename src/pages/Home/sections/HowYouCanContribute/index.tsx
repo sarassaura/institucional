@@ -44,6 +44,7 @@ function HowYouCanContribute(): ReactNode {
               backgroundColor: "#486284",
               width: "225.5px",
               height: "60px",
+              boxShadow: "none",
             }}
           >
             <Typography fontWeight={600} fontSize={21} lineHeight={1}>
@@ -69,6 +70,7 @@ function HowYouCanContribute(): ReactNode {
               backgroundColor: "#486284",
               width: "225.5px",
               height: "60px",
+              boxShadow: "none",
             }}
           >
             <Typography fontWeight={600} fontSize={21} lineHeight={1}>
@@ -94,6 +96,7 @@ function HowYouCanContribute(): ReactNode {
               backgroundColor: "#486284",
               width: "225.5px",
               height: "60px",
+              boxShadow: "none",
             }}
           >
             <Typography fontWeight={600} fontSize={21} lineHeight={1}>
@@ -119,6 +122,7 @@ function HowYouCanContribute(): ReactNode {
               backgroundColor: "#486284",
               width: "225.5px",
               height: "60px",
+              boxShadow: "none",
             }}
           >
             <Typography fontWeight={600} fontSize={21} lineHeight={1}>
