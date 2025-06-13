@@ -20,7 +20,12 @@ function ProjectThatMoveUs(): ReactNode {
         Cada projeto é uma forma de transformar cidades, conheça nosso trabalho.
         Além de ensinar a pedalar, atuamos em diversas frentes.
       </SubTitle>
-      <Box display="flex" overflow="hidden" sx={{ gap: 5, marginTop: "40px" }}>
+      <Box
+        display="flex"
+        width="1032px"
+        overflow="hidden"
+        sx={{ gap: 5, marginTop: "40px" }}
+      >
         <ProjectBox>
           <img src={EBA} alt="Logo Escola Bike Anjo" />
           <ProjectInfo>
